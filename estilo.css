@@ -1,0 +1,207 @@
+*{
+    margin:0;
+    padding: 0;
+}
+@font-face{
+    font-family:mio;
+    src: url("letra/BioRhyme-Regular.ttf");
+}
+body{
+     background-color:#566573;
+    font-size: 1em;
+    font-style: mio;
+}
+.contenedor{
+    width: 95%;
+    max-width:1000px;
+     background-color:#808B96;
+    margin: 20px auto;
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: (1fr,1fr, 1fr, 3fr)           /*repeat(4,1fr);*/
+    grid-template-rows: (4,auto);  
+    grid-template-areas: 
+                        "header     header     header    header"
+                        "contenido  contenido  contenido aside"
+                        "article    article    article   article"
+                        "footer     footer     footer    footer"
+
+}   
+    
+    
+ 
+
+.contenedor> .header,
+.contenedor .contenido,
+.contenedor .aside,
+.contenedor .article,
+.contenedor .footer
+{
+    background:#ABB2B9;
+    padding: 20px;
+    border-radius: 4px;
+}
+.contenedor .header{
+    color:#000;
+    grid-area: header;
+    background-image: url("imagen/princes.jpg" );
+    width: 95,5%;
+    height: 250px;
+    background-size: cover;
+    position: relative;
+     display: flex;
+   flex-direction:column;
+    
+}
+.contenedor .contenido{
+      grid-area: contenido;
+        
+}
+.contenido p{
+    font-size: 18px;
+    text-align: justify;
+    font-family: mio,sans-serif;
+    text-indent: 30px;
+}
+.contenido h2{
+    width: 350px;
+    font-size: 20px;
+    display: block;
+    margin: auto;
+    background:#FF9FB2;
+}
+.contenedor .article{
+
+     grid-area: article;
+}
+.article p{
+     font-size: 18px;
+    text-align: justify;
+    font-family: arial,helvetica,sans-serif;
+    text-indent: 30px;
+    
+}
+.article h2{
+    background: #FF9FB2;
+    width: 350px;
+    font-size: 20px;
+    display: block;
+    margin: auto;
+   
+}
+
+.contenedor .aside{ 
+    grid-area: aside;
+    }
+H3{
+    display: block;
+    text-align: center;
+    background: #FF9FB2;
+}
+.contenedor .footer{
+    color:#fff;
+      grid-area: footer;
+    text-align: center;
+    margin-bottom: 20px;
+  
+}
+
+.alegria2{
+ 
+    background:#EAECEE;
+    width:100%;
+    padding: 4px;
+    border-radius: 50%;
+      
+ }
+.alegria{
+ 
+   display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width:70%;
+    padding: 6px 2px;
+
+}
+.alegria3{
+    background: #D7DBDD;
+   display: block;
+    height: 250px;
+    width:100%;
+    padding: 6px 2px;
+
+}
+
+.foo,foo2{
+     text-align: center;
+}
+.foo2 >p{
+   
+  /* height:30px;*/
+    color: #000;
+  font-weight: bolder;
+    font-size:18px;
+    font-family:Times New Roman,arial;
+    text-align: center;
+
+  
+
+}
+.foo > p{   
+    
+    color:#000;  
+    font-size: 18px;
+    font-family: mio,arial,helvética,courier;
+    font-weight: bolder;
+ text-align: center;
+  
+}
+
+
+footer h4{
+    width: 100px;
+    background: #FF9FB2;
+      color:#000; 
+   margin-right: auto;
+    margin-left: auto;
+      
+}
+@media screen and (max-width:760px)
+{     
+    
+    body{ 
+      background: red;
+       }
+    .contenedor{
+  background: red;
+    grid-template-areas: 
+                        "header     header     header  header   "
+                        "contenido  contenido  contenido  contenido"
+                        "aside      aside       aside  aside"
+                        "article    article    article  article "
+                        "footer     footer     footer  footer "
+                }
+    .alegria2{
+ 
+    background:#EAECEE;
+    width:70%;
+    padding: 4px;
+    border-radius: 50%;
+    display: block;
+    margin: auto;
+  
+ }
+    
+} 
+    
+    
+   
+        
+    
+    
+
+
+
+
+
+

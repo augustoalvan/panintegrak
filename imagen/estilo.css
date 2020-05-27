@@ -1,0 +1,833 @@
+@font-face{
+    font-family:mio;
+    src: url("letra/Alegreya-Regular.ttf");
+    font-family:mio2;
+    src: url("letra/BioRhyme-Light.ttf");
+    font-family:mio3;
+    src: url("letra/FjallaOne-Regular.ttf");
+}
+    
+    
+    
+    
+}
+@font-face{
+        font-family:mio2;
+    src: url("letra/BioRhyme-Light.ttf");
+@font-face{
+   font-family:mio3;
+    src: url("letra/FjallaOne-Regular.ttf");
+}
+.prueba{
+      margin-top: 20px;
+      margin-left: 10px;
+      margin-bottom: 15px;
+      margin-right: 25px;
+    
+     border-top: 2px solid red; 
+     border-left: 2px solid red;
+     border-bottom: 2px solid red ;
+     border-right: 2px solid red;
+    
+      padding-top: 10px;
+      padding-left: 10px;
+      padding-bottom: 10px;
+      padding-right: 10px;
+}
+.titu3{
+    border: 2px solid red;
+    float:left;
+    width: 40%;
+    
+}
+.tor first-line{
+       font-size: 20;
+    
+}
+.dos a{
+    text-decoration: none;
+    background-color:cornflowerblue;
+    display: block;
+    width: 150px;
+    padding: 10px;
+    margin: auto;
+    text-align: center;
+    font-size: 30px
+}
+
+
+.dos a:hover{
+     background-color:fuchsia;
+}
+    
+
+.feo table{
+
+    
+}
+.cor table{
+  border: 1px solid red;
+  border-collapse:collapse;
+}
+
+
+.feo table tr th{
+  border: 1px solid black;
+ /* background: green;*/
+}
+.feo table tr td{
+  border: 1px solid green;
+  /*  background:yellow;*/
+    border-collapse:separate;
+} 
+.feo table caption{
+   color: blue;
+   font-size: 26px;
+} 
+
+/*MARCO CON SOMBRA+ IMAGEN*/
+.diez{
+    height: 400px;
+    margin: 20PX;
+    padding: 20PX;
+    border-radius: 20px 20px 20px 20px;
+    box-shadow: 15px 15px 15px #000;
+    background-image: url("imagen/fondo.jpg");
+    background-size:100%;
+    text-align: justify;
+    word-wrap: break-word;
+      
+}
+/*columnas en los parrafos*/
+.diezo{
+    height: 400px;
+    margin: 20PX;
+    padding: 20PX;
+    border-radius: 20px 20px 20px 20px;
+    box-shadow: 0px 0px 10px #000;
+    background-origin: padding-box;
+    text-align: justify;
+    word-wrap: break-word;
+    column-count: 3;
+    -webkit-column-count:3;
+    column-gap: 30px;
+    -webkit-column-gap: 30px;
+    column-rule: 2px solid #ccc;
+    -webkit-column-rule: 2px solid #ccc;
+    background-color: rgba(210,100,250,0.0)
+    
+ }
+/*trasparencia en txto unido con diezo*/
+.diezos{
+  background: url("imagen/fondo.jpg");  
+    
+} 
+.nono{
+    background-color: #3b7;
+    width: 300px;
+    border: 2px solid gray;
+    margin: 20px;
+    padding: 20px;
+    transition: 1s;
+
+}
+
+/*transicione transform: translate(30px,50px);
+   -webkit-transform: translate(90px,5px);
+    -webkit-transform: rotate(360deg);
+     -webkit-transform: scale(2,1)*/
+.nono:hover{ 
+  transform: skew(10deg,20deg);
+}
+
+/*block*/
+
+
+.agrupar{
+    border: 2px solid black;
+    width: 960;
+    margin: 20px,auto;
+}
+.cabe{
+    background:#34495E;
+    padding: 5px;
+ }
+.menu{
+    background:#ABB2B9; ;
+    padding: 2px;
+}  
+.menu li{
+    list-style: none;
+    padding: 5px;
+    font: bold 14px verdana;
+    display: inline-block;
+}
+.seccion{
+    margin: 20px;
+    width: 600px;
+    float: left;
+ }
+article{
+    background:#D7DBDD ;
+    border: 1px solid black;
+    padding: 20px;
+    margin-bottom: 15px;
+}
+article footer{
+    text-align: right;
+    margin-top: 20px;
+}
+time{
+    color:darkgreen;
+}
+.columna{
+    width: 300px;
+    float: left;
+    margin:20px 0;
+}
+.pie{
+    clear:both;
+    padding: 20px;
+    background:#BDC3C7; 
+    color:#F8F9F9;
+    text-align: center;
+}
+    
+#principal{
+    width: 900;
+    height: auto;overflow: hidden;
+    margin: auto;
+}
+/*header{
+    width: 900;
+    height: 100px;
+    border:0px solid #000;
+   */ 
+}
+
+
+.menu{ 
+    width:460px;
+    height:40px;
+    border:1px solid #ccc; 
+    float: right;
+    margin-top: 40px;
+    background:#006699;
+    
+}
+.menu ul li{
+    list-style: none;
+    float: left;
+    
+}
+.menu ul li a:hover{ 
+    background:#fff;
+    color:#006699;
+    transition:  background 1s,color 1s;
+ }
+.menu ul li a{ 
+    text-decoration: none;
+    padding: 10px 15px;
+    border:0px solid #ccc; 
+    color:#fff;
+ }
+
+
+
+.contenido1{
+    background: yellow;
+}
+.contenido2{ 
+    background: green;
+}
+.conte3{
+    color: darkseagreen;
+    font-size: 60px;
+    text-align: center;
+}
+.menuprincipal{
+    border: 6px solid #000000;
+    overflow: hidden;
+}
+.menuprincipal ul li a{
+    color:red;
+}
+.uno1{
+    background: green;
+    position: fixed;
+    top: 50px;
+    left: 100px;
+}
+.dos1{
+    border: 8px solid green;
+    width: 200px;
+ 
+ }
+.tres1{
+    border: 8px solid red;
+    width:250px;
+    margin: 20px 20px 20px 20px;
+    padding: 20px 20px 20px 20px;
+    text-align: justify
+  }  
+.cuatro{
+    border: 8px solid blue;
+      width: 200px;    
+   
+ }
+.texto{
+    margin: 5
+        0px;
+}
+.texto p{
+  font-family:helvetica;
+  font-size: 18px;
+  font-style: italic;  
+  font-weight:600
+}
+.unos ul li{
+    list-style:none;
+    display: inline;
+}
+/* hacia abajo miprimera pagina web */
+
+.cabecera{
+ overflow:hidden;
+  background:#fff166;
+}
+
+.cabecera img{
+   /*border: 8px solid blue;*/
+    display:block;
+    margin:auto;
+}
+.cabecera h1{
+  text-align:center;
+    font-size:28px;
+    color:blue 
+        
+}
+
+.leer{
+    text-decoration: none;
+    border: 1px solid #ccc;
+    padding: 10px 20px 10px 20px;
+    margin: 10px;
+}
+.leer:hover{
+    background: #006699;
+    color:#fff;
+    transition: background 1s, color 1s;
+}
+
+
+#menu{ 
+    width:460px;
+    height:40px;
+    border:1px solid #ccc; 
+    float: right;
+    margin-top: 40px;
+    background:#006699;
+    
+}
+
+
+.cabecera h3{
+    text-align:center;
+    font-size:25px;
+    color:red;
+        
+}  
+/*empieza el  menu*/
+
+.menu{
+       background:#333;
+       overflow:hidden;
+}
+.menu ul li{
+    list-style:none;
+    display: inline; 
+    
+}
+
+.menu ul li a{
+    color: #ffffff;
+    text-decoration:none;
+    padding:7PX;
+}
+
+.menu ul li a:hover{
+    color:blue;
+}
+/*empieza el cuerpo */
+.slider{
+    border: 10px solid red;
+    width: 100%
+}
+
+.iconos H3{
+     text-align: center;
+     font-size: 30PX;
+         COLOR:#444444;
+  }
+
+.iconos{
+     overflow:hidden;
+    margin: 20PX 0PX;
+ }
+
+.iconos div{
+    width: 24%;
+    float: left;
+    overflow:hidden;
+ }
+.iconos div img{
+    width: 90%;
+    display: block;
+    margin: auto;
+    
+ }
+.iconos div p{
+   text-align: center;
+    color: red;
+ }
+
+.bienvenida{
+    background: #999;
+    padding: 20px
+    
+    
+}
+.bienvenida p{ 
+    text-align:center;/* border: 10px solid blue;*/
+    color:#ffffff;
+    margin: 30px 30px;
+}
+.paralas{
+      width: 100%;
+      height:150px;
+      background: url(imagen/fondo.jpg);
+      background-size: 100%;
+      background-attachment: fixed;
+      background-repeat: no-repeat;
+}
+
+.paralas a{
+    display: block;
+    padding: 10px;
+    width: 150px;
+    text-align: center;
+    text-decoration: none;
+    background: #000000;
+    color:#ffffff;
+    margin: 30px auto 30px auto;
+    
+    
+ }
+.paralas a:hover{
+     background:orange;
+     color:floralwhite;
+    
+ }
+.publicidad{
+    overflow: hidden;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    
+    
+}
+.publicidad img{
+    width: 100%
+      
+}
+.piedepagina{
+    background:#333;
+    color:#ffffff;
+    text-align: center;
+    padding: 5px;
+    font-size: 14px;
+    
+}
+
+/*cajas*/
+#primero{
+ 
+    margin: 5px auto 5px auto;
+   float: left;
+}
+#segundo{
+    float: right;
+    width: 300px;
+    height: 500px;
+    background-color:green;
+    float: right;
+}
+#tercero{
+    width: 640px;
+    height: 200px;
+    background-color:blue;
+}
+
+#cuarto{
+    margin-top: 10px;
+    width: 640px;
+    height: 600px;
+    background-color:aqua;
+}
+
+/*fin de cajas*/
+
+#pri{
+   padding: 10px 10px;
+}
+
+
+#cabeza{
+    width:200px;
+    height: 100px;
+    border:2px solid #000; 
+  
+    
+}
+.titu{
+    font-size: :30px;
+    margin-top: 10px;
+    margin-left: 250px;
+    color: black
+    border: 1px solid #000000;
+    
+    
+}
+
+
+
+
+.titu2{
+    font-size: :20px;
+    margin-top: -30px;
+     margin-left: 280px;
+}
+
+/*mi html mama*/
+
+body{     /*transparencia imagen*/
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+    background-image: url(imagen/castillo2.png);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+ }  
+
+body:before{
+   content: "";
+    width: 98%;
+    min-height: 100vh;
+    position: absolute;
+    top:0;left: 0;
+    background: linear-gradient(#52c4df,#ad55c1);
+    opacity: 0.6;
+    z-index: -1;
+    position: relative;
+    
+}
+
+
+#papa{
+        width:960;
+        height:auto;
+       margin-top: 5px;
+        margin-left: 5px;
+        margin-right:5px;
+}
+    
+ h1{
+    font-size: 30px;
+    font-family: fantasy;
+    font-weight: bold;
+     text-align: center;
+     color:#610B0B;  
+}
+
+   
+
+#slide{
+     width: 925px;
+     height: 292px;
+    font-weight: bold;
+    margin-left:5px;
+    
+}
+
+.img5{
+    float: right;
+    margin-top: 5px;
+    margin-right: 20px;
+    width: 160px;
+    height: 300px;
+ }
+
+.imgprin{
+    width: 235;
+    height: 250;
+   padding-left: 35px;
+    margin-top: 5px;
+     margin-right: 2px;
+    margin-left: 190;
+    margin:5px 5px
+}
+
+#categorias{
+    width: 925px;
+    height: auto;overflow: hidden;
+    margin-top: 5px;
+    margin-left: 5px ;
+ 
+ }
+h2{
+    margin-top: -3PX;
+    font-size: 30px;
+    font-family:sans-serif;
+    font-weight:200;
+    color: #C0392B ;
+    font-style: italic;
+    text-align: center;
+}
+.unoll{
+    width: 282px;
+    height:450px;
+ /*  height: auto;overflow: hidden;*/
+
+    border: 1px solid #ccc ; 
+    float: left;
+    text-align: center;
+    margin-left: 3px;
+    margin-right: 24px
+         
+} 
+.doso{ 
+    width: 300px;
+    height: 450px;
+     /*   height: auto;overflow: hidden;*/
+ margin-right: 4px;
+    border: 1px solid #ccc; 
+  /*  position: relative;*/
+    float: left;
+     text-align: center;
+    margin-left: 2px;  
+}
+.treso{
+    width: 282px;
+    height: 450px;
+  /*   height: auto;overflow: hidden;*/
+
+    margin-left: 12px;
+    float:right;
+    text-align: center;
+     margin-right: 5px;    
+    
+     border: 1px solid #ccc; 
+}
+
+
+#info{
+    width: 925px;
+    height: auto;overflow: hidden;
+    margin-top: 0px;
+    margin-left: 5px ;
+    
+}
+#izquu{
+    width: 440px;
+     height= 150px;
+     height: auto;overflow: hidden;
+    margin-left: 2px;
+    float: left;
+    padding: 5px;
+    border: 1px solid #ccc  ; 
+}
+#derek{
+    width: 440px;
+    height= 150px;
+    height: auto;overflow: hidden;
+    border: 1px solid #ccc;  
+    float: right;
+    margin-right: 5px;
+    margin-left: 5px;
+     padding: 5px;
+}    
+
+.img{
+   margin-top: -3px;
+   margin-bottom: 3px;
+   margin-right: 5px;
+   border-radius: 20px 20px 20px 20px; /*radial*/
+   box-shadow: 2px 2px 14px #000;  /*sombreado*/
+   background-origin: padding-box; 
+    background-size: cover;
+    position: relative;
+   background-color: rgba(210,100,250,0.6)
+}
+
+
+.img2{
+     height=150px; width=282px;
+     padding-left: 3px;
+     padding-right:5px;
+     border-radius: 20px 20px 20px 20px; /*radial*/
+   box-shadow: 2px 2px 16px #000;  /*sombreado*/
+   background-origin: padding-box; 
+    background-size: cover;
+    position: relative;
+ /*background-color: rgba(210,100,250,0.6);*/
+    float:left;
+}
+
+
+#boro{
+     width: 927px;
+    height:288px; /* auto;overflow: hidden;*/
+      margin-left: 4px;
+
+   }
+
+.side3 p{
+     color:red;  
+    font-size: 18px;
+    font-family: mio;
+ 
+    
+}
+.side3{
+      width: 672px;
+   height: 274px;
+     margin: 5px;
+    border: 1px solid #ccc ; 
+   float: right;
+    /*  height: auto;overflow: hidden;*/
+}
+
+.side2{
+     width: 224px;
+  /*  height: 265px;*/
+    height:auto;overflow: hidden;
+    margin-right: 5px;
+    margin-top: 5px;
+    margin-left: 12px;
+     padding-top: 5px; 
+    background:red;
+
+    
+ }
+.img3{
+     height=260px; width=210px;
+    padding: 2px 6px;
+     border-radius:20px 20px 20px 20px; /*radial*/
+   box-shadow: 2px 2px 16px #000;  /*sombreado*/
+   background-origin: padding-box; 
+    background-size: cover;
+   background-color: rgba(242, 93, 13,0.6);
+}
+
+.side4{
+
+    width: 916px;
+   height:92px;
+    margin-left: 7px;
+    padding-top: 3px;
+  border: 1px solid red;
+   
+ }
+.img4{
+   height=100px; width=820px; 
+   text-align: center;
+    display: block;
+    margin: auto;
+   
+   }
+
+
+#categorias p{
+     color:#050009;  
+    font-size: 18px;
+    font-family:Times New Roman,arial,helvetica;
+    margin-left:15px;
+  padding-right: 10px;
+   text-align: justify;
+}
+
+#info p{
+     color:#050009;  
+    font-size: 18px;
+      font-weight: bolder;
+    font-family: calibri,ginebra;
+     margin-left:15px;
+      margin-right: 5px;
+       text-align: justify;
+}
+#boro p{
+     color:black; 
+    padding-top: 5px;
+    font-size: 18px;
+    font-family: mio2,arial,helvética,courier;
+     margin-left:15px;
+      margin-right: 5px;
+    text-align: justify;
+      
+}
+
+
+footer {
+    width:917px;
+    height:100px;
+    margin-right: 5px;
+    margin-top: 5px;
+    margin-left: 7px ;
+    border: 1px solid #ccc; 
+}
+.foo{
+     width:910px;
+    height:40px;
+     margin-left: 7px;
+}
+
+.foo2{
+     width:920px;
+    height:30px;
+  font-weight: bolder;
+    font-size:22px;
+    font-family:Times New Roman,arial;
+    text-align: center;
+}
+footer p{
+      background-color: rgba(23, 32, 42,0.6);
+     color:#FBFCFC;  
+    font-size: 18px;
+    font-family: mio,arial,helvética,courier;
+     font-weight: bolder;
+      margin-right: 5px;
+    text-align:center;
+      
+}
+
+.foo2 a{
+    display: block;
+    padding: 5px;
+    width: 150px;
+    text-align: center;
+    text-decoration: none;
+    background: #000000;
+    color:#ffffff;
+    margin: 5px auto 5px auto;
+    
+    
+ }
+.foo2 a:hover{
+     background:orange;
+     color:floralwhite;
+    
+ }
